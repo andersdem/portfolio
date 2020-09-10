@@ -5,7 +5,7 @@
  Author:       Anders Matthiesen
  Author URI:   http://andersdem.dk
  Template:     astra
- Version:      1.1.2
+ Version:      1.1.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -13,5 +13,14 @@
 */
 
 body {
-    background-color: aqua !important;
+    background-color: #161624 !important;
+}
+
+/* Dette gør at navigationsbaren er fixed */
+.main-header-bar-wrap {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color: #FF5225;
+    opacity: 80%;
 }
