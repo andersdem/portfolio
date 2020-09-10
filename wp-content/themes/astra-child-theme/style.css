@@ -16,7 +16,7 @@ body {
     background-color: #161624 !important;
 }
 
-/* Dette gør at navigationsbaren er fixed */
+/* Dette gør at navigationsbaren er fixed og giver den opacity*/
 .main-header-bar-wrap {
     width: 100%;
     position: fixed;
