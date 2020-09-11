@@ -24,3 +24,11 @@ body {
     background-color: #FF5225;
     opacity: 80%;
 }
+
+.ast-button {
+    background-color: #375986;
+}
+
+.ast-button:hover {
+    background-color: #284264 !important;
+}
