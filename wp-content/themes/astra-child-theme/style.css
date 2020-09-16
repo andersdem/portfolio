@@ -32,3 +32,11 @@ body {
 .ast-button:hover {
     background-color: #284264 !important;
 }
+
+button#wpforms-submit-5 {
+    background-color: #375986 !important;
+}
+
+button#wpforms-submit-5:hover {
+    background-color: #284264 !important;
+}
