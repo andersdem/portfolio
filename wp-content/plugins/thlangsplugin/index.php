@@ -1,11 +1,11 @@
 <?php
 /*
 * Plugin Name: Partyvibes Plugin 
-* Plugin URI: http://localhost/learningwordpress/cheers
+* Plugin URI: http://http://localhost/git/portfolio/
 * Description: This is a Newsletter Signup form Plugin for Cheers based on HTML5, CSS, JS and PHP
 * Version: 2.9.9
 * Author: Murat Kilic
-* Author URI: http://localhost/learningwordpress/cheers
+* Author URI: http://http://localhost/git/portfolio/
 * License: GPL2
 */
 
@@ -53,5 +53,5 @@ function newsletter_form()
         
         wp_enqueue_script('jquery','https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
         
-        wp_enqueue_script('CustomScript', plugins_url('partyvibesplugin/js/script.js'), array('jquery'), null, true);
+        wp_enqueue_script('CustomScript', plugins_url('thlangspluginplugin/js/script.js'), array('jquery'), null, true);
     }
